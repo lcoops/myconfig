@@ -1,0 +1,12 @@
+1.下载repo
+git clone git://aosp.tuna.tsinghua.edu.cn/git-repo.git/
+
+2.修改下载里面的REPO_URL
+REPO_URL = 'git://aosp.tuna.tsinghua.edu.cn/git-repo'
+
+3.现在需要的分支（下面为测试可以下载的分支）
+repo init -u https://aosp.tuna.tsinghua.edu.cn/platform/manifest -b android-6.0.1_r77
+
+查看代码分支：
+cd .repo/manifests/
+git branch -a
